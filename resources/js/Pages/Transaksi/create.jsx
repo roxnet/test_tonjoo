@@ -44,7 +44,7 @@ export default function CreateTransaksi({ errors }) {
             date_paid: datepaid,
             row_income: newRowIncome,
             row_expense: newRowExpense,
-            _token: this.$page.props.csrf_token,
+            // _token: this.$page.props.csrf_token,
         });
     }
     const addRowIncome = () => {

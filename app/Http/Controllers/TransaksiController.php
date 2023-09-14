@@ -24,11 +24,11 @@ class TransaksiController extends Controller
 
     public function store(Request $request){
 
-
+      
         $this->validate($request, [
             'description'     => 'required',
-            'code'     => 'required|min:5',
-            'rate_euro'   => 'required|min:10'
+            'code'     => 'required',
+            'rate_euro'   => 'required'
         ]);
 
         $trHeader=TrHeader::create([

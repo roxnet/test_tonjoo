@@ -13,6 +13,8 @@ import { Inertia } from '@inertiajs/inertia';
 
 import { Link } from '@inertiajs/inertia-react';
 
+import { router } from '@inertiajs/react';
+
 export default function UpdateTransaksi({ errors,transaksi,dataincome,datadataexpense }) {
 
     //define state
